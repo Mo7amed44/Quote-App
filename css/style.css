@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../—Pngtree—black\ smoke\ in\ blue\ and_2507248.png);
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+
+}
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /* background-color: rgb(234, 34, 34); */
+    color: #fff;
+
+    margin-inline: auto;
+    margin-block: 50px;
+    z-index: - 5;
+}
+
+/* .item::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #fff;
+    z-index: -3;
+    opacity: 5;
+
+
+} */
+.item {
+    background-color: rgba(37, 36, 35, .8);
+    width: 600px;
+
+
+
+}
+
+h1 {
+    border: solid 3px #fff;
+
+}
+
+.quotes-body {
+    background-color: rgba(37, 36, 35, .8);
+    width: 600px;
+    height: 200px;
+}
+
+
+.btn1 {
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+
+    color: #fff;
+    border: solid 3px #fff;
+
+}
+
+.btn1:hover {
+    background-color: #fff;
+    color: #000;
+
+}
